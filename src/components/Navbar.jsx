@@ -1,28 +1,45 @@
+import { FaBarsProgress } from "react-icons/fa6";
+
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <a className="text-white font-semibold " href="#">
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#"
+        >
           Home
         </a>
       </li>
       <li>
-        <a className="text-white font-semibold " href="#">
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#"
+        >
           About
         </a>
       </li>
       <li>
-        <a className="text-white font-semibold " href="#">
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#"
+        >
           Skills
         </a>
       </li>
       <li>
-        <a className="text-white font-semibold " href="#">
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#"
+        >
           Projects
         </a>
       </li>
       <li>
-        <a className="text-white font-semibold " href="#">
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#"
+        >
           Contact
         </a>
       </li>
@@ -32,41 +49,27 @@ const Navbar = () => {
   return (
     <nav className="max-w-7xl mx-auto ">
       <div className="navbar">
-        <div className="navbar-start">
+        <div className="navbar-start gap-3">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {" "}
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
-              </svg>
+            <div tabIndex={0} role="button" className="md:hidden">
+              <FaBarsProgress color="white" size={25} />
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-white  rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
-            <h3 className="font-bold text-5xl text-white title">FR</h3>
+          <a className=" text-xl">
+            <h3 className="font-bold text-4xl  md:text-5xl text-white ">FR</h3>
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-5">{links}</ul>
+        <div className="navbar-center hidden md:flex">
+          <ul className="menu menu-horizontal px-1 gap-3">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <button className="btn font-bold  bg-white ">Resume</button>
         </div>
       </div>
     </nav>
