@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #030303;
+  --color-secondary: #9979d6;
+}
+
+.title {
+  @apply font-semibold;
+  background: -webkit-linear-gradient(bottom right, #997cd3, #715d98);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
