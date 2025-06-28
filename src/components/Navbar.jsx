@@ -6,7 +6,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#"
+          href="#home"
         >
           Home
         </a>
@@ -14,7 +14,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#"
+          href="#about"
         >
           About
         </a>
@@ -22,7 +22,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#"
+          href="#skills"
         >
           Skills
         </a>
@@ -30,7 +30,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#"
+          href="#projects"
         >
           Projects
         </a>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#"
+          href="#contact"
         >
           Contact
         </a>
