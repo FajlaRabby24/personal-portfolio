@@ -23,3 +23,25 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.section-title {
+  @apply text-4xl font-semibold text-white text-center mb-6;
+}
+
+.bg {
+  @apply bg-red-400;
+}
+.bg1 {
+  @apply bg-green-400;
+}
+.bg2 {
+  @apply bg-purple-400;
+}
+
+.grid-box {
+  @apply p-3 rounded-lg bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7]  text-[#eae6ff];
+}
+
+.grid-box-title {
+  @apply text-xl font-semibold mb-2;
+}

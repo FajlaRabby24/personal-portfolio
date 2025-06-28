@@ -3,6 +3,7 @@ import { FaX } from "react-icons/fa6";
 import { GoDownload } from "react-icons/go";
 import { MdOutlineVibration } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
+import bg from "../assets/images/bg1.png";
 import image from "../assets/images/image.png";
 
 const words = [
@@ -22,8 +23,15 @@ const words = [
 
 const Banner = () => {
   return (
-    <div className="min-h-[calc(80vh-66px)] flex items-center justify-center">
-      <div className="relative">
+    <div
+      className="h-[700px]   relative flex flex-col items-center justify-center"
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundPosition: "bottom",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div>
         <div className="flex gap-2 ">
           {/* image  */}
           <div className="avatar">
@@ -45,7 +53,7 @@ const Banner = () => {
           user experiences I thrive at the intersection of creativity and <br />
           functionality.
         </p>
-        <div className="flex flex-wrap items-center gap-7 pt-1">
+        <div className="flex z-50 flex-wrap items-center gap-7 pt-1">
           <button className="btn bg-white">
             <GoDownload size={20} /> Resume
           </button>
@@ -64,7 +72,7 @@ const Banner = () => {
           </a>
         </div>
         {/* gradient box  */}
-        <div className="absolute flex top-0 ">
+        <div className="absolute z-0 flex top-0 ">
           <div className="w-96 h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
 
           <div className=" w-96 h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
