@@ -4,6 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  @apply bg-primary;
 }
 /* orange eb4c1d */
 /* blue 19b6f5 */
@@ -25,17 +26,11 @@ body {
 }
 
 .section-title {
-  @apply text-4xl font-semibold text-white text-center mb-6;
+  @apply text-4xl font-semibold text-white text-center pb-10;
 }
 
 .bg {
   @apply bg-red-400;
-}
-.bg1 {
-  @apply bg-green-400;
-}
-.bg2 {
-  @apply bg-purple-400;
 }
 
 .grid-box {
