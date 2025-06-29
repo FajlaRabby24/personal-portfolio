@@ -37,7 +37,10 @@ const Contact = () => {
 
   return (
     <Container>
-      <section id="contact" className=" px-3 xl:px-0 pb-24 scroll-mt-20">
+      <section
+        id="contact"
+        className=" px-3 xl:px-0 pb-24 scroll-mt-20 overflow-hidden w-full"
+      >
         <h2 className="section-title">Contact</h2>
 
         <div className="grid md:grid-cols-2 gap-4">

@@ -38,7 +38,7 @@ const skills = [
 const Skills = () => {
   return (
     <Container>
-      <section id="skills" className="pb-20 px-3 xl:px-0 scroll-mt-20">
+      <section id="skills" className="px-3 xl:px-0 scroll-mt-24">
         <h1 className="section-title">Skills</h1>
         <div className="flex flex-wrap justify-center  items-center gap-3">
           {skills.map((skill, idx) => (

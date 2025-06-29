@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="max-w-6xl mx-auto px-3 xl:px-0 scroll-mt-20"
+      className="max-w-6xl mx-auto px-3 xl:px-0 scroll-mt-24"
     >
       <h1 className="section-title">About me</h1>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-3">

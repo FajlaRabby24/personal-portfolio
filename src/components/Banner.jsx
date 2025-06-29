@@ -7,25 +7,18 @@ import bg from "../assets/images/bg1.png";
 import image from "../assets/images/image.png";
 
 const words = [
-  "MERN Stack Developer",
   "UI/UX Designer",
   "React.js Enthusiast",
-  "Node.js Backend Developer",
-  "API Integration Specialist",
-  "MongoDB & Express Expert",
-  "Responsive Web Designer",
   "Clean Code Advocate",
-  "Performance Optimizer",
   "Frontend Engineer",
   "RESTful API Builder",
-  "Creative Problem Solver",
 ];
 
 const Banner = () => {
   return (
     <section
       id="home"
-      className="h-[700px] px-3 xl:px-0  relative flex flex-col items-center justify-center scroll-mt-20"
+      className="h-[700px] px-3 xl:px-0  relative flex flex-col items-center  justify-center scroll-mt-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "bottom",
@@ -33,7 +26,7 @@ const Banner = () => {
       }}
     >
       <div>
-        <div className="flex flex-col md:flex-row gap-2 ">
+        <div className="flex flex-col sm:items-end sm:flex-row gap-2 ">
           {/* image  */}
           <div className="avatar">
             <div className="bg-radial from-primary from-40% to-secondary w-32 rounded-full ">
@@ -43,16 +36,16 @@ const Banner = () => {
           {/* title  */}
           <h2 className="text-white font-bold text-4xl md:text-6xl  md:leading-16">
             HEY, I'M <span className="title">FAJLA</span> 🪄 <br /> A{" "}
-            <span className="title text-3xl md:text-5xl">
+            <span className="title text-3xl sm:text-4xl md:text-5xl">
               {/* API Integration Specialist */}
               <Typewriter loop={true} words={words} />
             </span>
           </h2>
         </div>
-        <p className="text-white py-5 text-lg">
+        <p className="text-white py-5 text-lg max-w-4xl mx-auto">
           <span className="font-semibold">A MERN stack developer</span> with
-          sciid foundations in design. <br /> passionate about crafting seamless
-          user experiences I thrive at the intersection of creativity and <br />
+          sciid foundations in design. passionate about crafting seamless user
+          experiences I thrive at the intersection of creativity and
           functionality.
         </p>
         <div className="flex z-50 flex-wrap items-center gap-7 pt-1">
@@ -80,11 +73,11 @@ const Banner = () => {
           </a>
         </div>
         {/* gradient box  */}
-        <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
+        {/* <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
           <div className="w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
 
           <div className=" w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
