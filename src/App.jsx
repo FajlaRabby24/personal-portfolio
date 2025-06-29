@@ -1,7 +1,7 @@
 import { ToastContainer } from "react-toastify";
-import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
       </header>
       <main className=" space-y-40">
         {/* <Banner /> */}
-        <AboutMe />
-        {/* <Skills /> */}
+        {/* <AboutMe /> */}
+        <Skills />
         {/* <Projects /> */}
         {/* <Contact /> */}
       </main>
