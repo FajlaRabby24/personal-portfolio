@@ -37,12 +37,12 @@ const Contact = () => {
 
   return (
     <Container>
-      <section id="contact" className=" px-4 py-10 scroll-mt-20">
+      <section id="contact" className=" px-3 xl:px-0 pb-24 scroll-mt-20">
         <h2 className="section-title">Contact</h2>
 
         <div className="grid md:grid-cols-2 gap-4">
           {/* Contact Information */}
-          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-6 rounded-lg bg-base-100 shadow-md">
+          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
             <h3 className="text-xl text-white font-semibold mb-4">
               Contact Information
             </h3>
@@ -91,7 +91,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-6 rounded-lg bg-base-100 shadow-md">
+          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
             <form ref={form} className="space-y-4" onSubmit={sendEmail}>
               <input
                 type="text"
@@ -124,7 +124,7 @@ const Contact = () => {
                 placeholder="Message..."
                 name="message"
                 required
-                className="textarea textarea-bordered w-full h-32"
+                className="textarea textarea-bordered w-full "
               ></textarea>
               <button
                 type="submit"
