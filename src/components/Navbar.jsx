@@ -14,7 +14,7 @@ const Navbar = () => {
       <li>
         <a
           className="text-black md:text-white font-bold md:font-semibold "
-          href="#about"
+          href="#about-me"
         >
           About
         </a>

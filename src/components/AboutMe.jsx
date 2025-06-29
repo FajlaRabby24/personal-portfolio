@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <section id="about-me" className="max-w-6xl mx-auto scroll-mt-20">
       <h1 className="section-title">About me</h1>
       <div className="grid grid-cols-12 gap-3">
         {/* one  */}
@@ -91,7 +91,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

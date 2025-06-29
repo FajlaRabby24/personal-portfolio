@@ -38,7 +38,7 @@ const skills = [
 const Skills = () => {
   return (
     <Container>
-      <section className="pb-20">
+      <section id="skills" className="pb-20 scroll-mt-20">
         <h1 className="section-title">Skills</h1>
         <div className="grid grid-cols-8  items-center gap-3">
           {skills.map((skill, idx) => (

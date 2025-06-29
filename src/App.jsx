@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -8,7 +9,7 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <div className="min-h-screen">
-      <header className="backdrop-blur-2xl sticky top0 border-b border-[#ededed54]">
+      <header className="backdrop-blur-2xl sticky top-0  z-50 border-b border-[#ededed54]">
         <Navbar />
       </header>
       <main className=" space-y-40">
@@ -16,6 +17,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </main>
       <footer>
         <Footer />

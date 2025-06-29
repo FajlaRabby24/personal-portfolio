@@ -162,7 +162,7 @@ const projects = [
 const Projects = () => {
   return (
     <Container>
-      <section>
+      <section id="projects" className="scroll-mt-20">
         <h1 className="section-title">Projects</h1>
         <div className="space-y-4">
           {projects.map((project, idx) => (

@@ -23,8 +23,9 @@ const words = [
 
 const Banner = () => {
   return (
-    <div
-      className="h-[700px]   relative flex flex-col items-center justify-center"
+    <section
+      id="home"
+      className="h-[700px]   relative flex flex-col items-center justify-center scroll-mt-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "bottom",
@@ -57,18 +58,24 @@ const Banner = () => {
           <button className="btn bg-white">
             <GoDownload size={20} /> Resume
           </button>
-          <button className="btn bg-white">
-            <MdOutlineVibration size={20} /> View Projects
-          </button>
+          <a href="#projects">
+            {" "}
+            <button className="btn bg-white">
+              <MdOutlineVibration size={20} /> View Projects
+            </button>
+          </a>
           <p className="text-white">|</p>
           <a target="_blank" href="https://github.com/FajlaRabby24">
-            <FaGithub size={20} color="white" />
+            <FaGithub size={30} color="white" />
           </a>
-          <a target="_blank" href="https://github.com/FajlaRabby24">
-            <FaLinkedin size={20} color="white" />
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/fajla-rabby-99297b361"
+          >
+            <FaLinkedin size={30} color="white" />
           </a>
-          <a target="_blank" href="https://github.com/FajlaRabby24">
-            <FaX size={20} color="white" />
+          <a target="_blank" href="https://x.com/FajlaRabby24">
+            <FaX size={30} color="white" />
           </a>
         </div>
         {/* gradient box  */}
@@ -78,7 +85,7 @@ const Banner = () => {
           <div className=" w-96 h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
