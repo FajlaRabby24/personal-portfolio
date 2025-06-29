@@ -55,12 +55,12 @@ const projects = [
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Client GitHub",
+        name: "Client",
         url: "https://github.com/FajlaRabby24/car-rental-client",
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Server GitHub",
+        name: "Server",
         url: "https://github.com/FajlaRabby24/car-rental-server",
       },
     ],
@@ -105,12 +105,12 @@ const projects = [
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Client GitHub",
+        name: "Client",
         url: "https://github.com/FajlaRabby24/recipe-book-client",
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Server GitHub",
+        name: "Server",
         url: "https://github.com/FajlaRabby24/recipe-book-server",
       },
     ],
@@ -162,7 +162,7 @@ const projects = [
 const Projects = () => {
   return (
     <Container>
-      <section id="projects" className="scroll-mt-20">
+      <section id="projects" className="px-3 xl:px-0 scroll-mt-20">
         <h1 className="section-title">Projects</h1>
         <div className="space-y-4">
           {projects.map((project, idx) => (

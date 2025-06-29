@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const Carousel = ({ images }) => {
   return (
-    <div>
+    <div className="h-full ">
       <Swiper
         slidesPerView={1}
         autoplay={{
@@ -17,13 +17,14 @@ const Carousel = ({ images }) => {
         loop={true}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
+        className="  h-full"
       >
         {images.map((image, idx) => (
           <SwiperSlide key={idx}>
             <img
               src={image}
               alt={`image.png`}
-              className=" rounded-xl  w-full"
+              className=" rounded-xl h-full object-cover  w-full"
             />
           </SwiperSlide>
         ))}

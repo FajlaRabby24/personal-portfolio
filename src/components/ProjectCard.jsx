@@ -15,9 +15,9 @@ const ProjectCard = ({ project }) => {
   } = project;
 
   return (
-    <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] rounded-lg flex flex-col md:flex-row shadow-lg p-4 space-y-4 md:space-y-0 md:space-x-6">
+    <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] rounded-lg flex flex-col lg:flex-row shadow-lg p-4 space-y-4 md:space-y-0 md:space-x-6">
       {/* Image */}
-      <div className="flex-1 overflow-hidden z-0">
+      <div className="flex-1 overflow-hidden  w-full z-0">
         <Carousel images={projectImages} />
       </div>
 
