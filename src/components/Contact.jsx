@@ -1,9 +1,40 @@
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
 import { FaGithub, FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot, FaX } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { toast } from "react-toastify";
 import Container from "./Container";
 
 const Contact = () => {
+  const form = useRef();
+  const [isSubmiting, setIsSubmiting] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setIsSubmiting(true);
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_emailjs_server_id,
+        import.meta.env.VITE_emailjs_template_id,
+        form.current,
+        {
+          publicKey: "15JZ_CaN9OaulYRHr",
+        }
+      )
+      .then(
+        () => {
+          setIsSubmiting(false);
+          toast.success("Thanks for reaching out. I'll contact you soon!");
+          form.current.reset();
+        },
+        (error) => {
+          toast.error(`FAILED... ${error.text}`);
+          setIsSubmiting(false);
+        }
+      );
+  };
+
   return (
     <Container>
       <section id="contact" className=" px-4 py-10 scroll-mt-20">
@@ -44,14 +75,14 @@ const Contact = () => {
                 <a
                   className=" p-2 rounded-full bg-neutral"
                   target="_blank"
-                  href="https://github.com/FajlaRabby24"
+                  href="https://www.linkedin.com/in/fajla-rabby-99297b361"
                 >
                   <FaLinkedin size={20} color="white" />
                 </a>
                 <a
                   className=" p-2 rounded-full bg-neutral"
                   target="_blank"
-                  href="https://github.com/FajlaRabby24"
+                  href="https://x.com/FajlaRabby24"
                 >
                   <FaX size={20} color="white" />
                 </a>
@@ -61,32 +92,52 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-6 rounded-lg bg-base-100 shadow-md">
-            <form className="space-y-4">
+            <form ref={form} className="space-y-4" onSubmit={sendEmail}>
               <input
                 type="text"
+                name="user_name"
+                required
                 placeholder="Your Name"
                 className="input input-bordered w-full"
               />
               <input
                 type="email"
+                name="user_email"
+                required
                 placeholder="Your Email"
                 className="input input-bordered w-full"
               />
               <input
                 type="text"
+                name="user_phone"
                 placeholder="Phone (optional)"
                 className="input input-bordered w-full"
               />
               <input
                 type="text"
+                required
+                name="user_subject"
                 placeholder="Subject"
                 className="input input-bordered w-full"
               />
               <textarea
                 placeholder="Message..."
+                name="message"
+                required
                 className="textarea textarea-bordered w-full h-32"
               ></textarea>
-              <button className="btn btn-accent w-full">Send Email</button>
+              <button
+                type="submit"
+                className={`btn w-full ${
+                  isSubmiting ? "cursor-not-allowed" : undefined
+                } btn-info`}
+              >
+                {isSubmiting ? (
+                  <span className="loading loading-spinner loading-md"></span>
+                ) : (
+                  "Send Email"
+                )}
+              </button>
             </form>
           </div>
         </div>

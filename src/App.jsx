@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import AboutMe from "./components/AboutMe";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
@@ -9,6 +10,7 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <div className="min-h-screen">
+      <ToastContainer autoClose={1500} position="top-left" />
       <header className="backdrop-blur-2xl sticky top-0  z-50 border-b border-[#ededed54]">
         <Navbar />
       </header>
