@@ -73,11 +73,11 @@ const Banner = () => {
           </a>
         </div>
         {/* gradient box  */}
-        {/* <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
+        <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
           <div className="w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
 
           <div className=" w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
