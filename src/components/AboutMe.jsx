@@ -1,3 +1,5 @@
+import Reveal from "../Animation/Reveal";
+
 const AboutMe = () => {
   return (
     <section
@@ -7,7 +9,7 @@ const AboutMe = () => {
       <h1 className="section-title">About me</h1>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
         {/* one  */}
-        <div className=" md:col-span-8 grid-box">
+        <Reveal className=" md:col-span-8 grid-box">
           <h3 className="grid-box-title">My Programming Journey</h3>
           <p>
             My programming journey started a long time ago, an interesting thing
@@ -18,20 +20,20 @@ const AboutMe = () => {
             JavaScript. From then on, I actually got more interested in doing
             something with programming.
           </p>
-        </div>
+        </Reveal>
 
         {/* two  */}
-        <div className="bg md:col-span-4 grid-box">
+        <Reveal className="bg md:col-span-4 grid-box">
           <h3 className="grid-box-title">How I learned programming</h3>
           <p>
             At first, I learned by watching various playlists on YouTube, but at
             one point I realized that there were very few opportunities to get
             help here, so I thought, let's actually take a course later.
           </p>
-        </div>
+        </Reveal>
 
         {/* four  */}
-        <div className="bg2 md:col-span-4  grid-box">
+        <Reveal className="bg2 md:col-span-4  grid-box">
           <h3 className="grid-box-title">
             All the projects I have done so far
           </h3>
@@ -40,9 +42,9 @@ const AboutMe = () => {
             Book App and authentication system. In each project I have handled
             the frontend and backend myself.
           </p>
-        </div>
+        </Reveal>
         {/* three  */}
-        <div className="bg2 md:col-span-8 grid-box">
+        <Reveal className="bg2 md:col-span-8 grid-box">
           <h3 className="grid-box-title">The kind of work I like</h3>
           <p>
             I love working on projects where UI/UX is important. I like to
@@ -51,28 +53,28 @@ const AboutMe = () => {
             also love challenging work because there is little interest in work
             that does not have challenges.
           </p>
-        </div>
+        </Reveal>
         {/* five  */}
-        <div className="bg2 md:col-span-4 row-span-2 grid-box">
+        <Reveal className="bg2 md:col-span-4 row-span-2 grid-box">
           <h3 className="grid-box-title">Future goals</h3>
           <p>
             Although programming is difficult, I enjoy learning it, so I have
             made plans to learn Next.js, TypeScript, Python, and C++ in the
             future. My goal is to create a SaaS app as a full-stack developer.
           </p>
-        </div>
+        </Reveal>
 
         {/* six  */}
-        <div className="bg2 md:col-span-4 -6 grid-box">
+        <Reveal className="bg2 md:col-span-4 -6 grid-box">
           <h3 className="grid-box-title">My skills and tools</h3>
           <p>
             I work with the MERN Stack (MongoDB, Express, React, Node.js). I am
             also proficient in Tailwind CSS, Firebase, JWT, and GitHub version
             control. My favorite tools are React and Tailwind CSS.
           </p>
-        </div>
+        </Reveal>
         {/* seven  */}
-        <div className="bg2 md:col-span-4 -5 grid-box">
+        <Reveal className="bg2 md:col-span-4 -5 grid-box">
           <h3 className="grid-box-title">solve the problem?</h3>
           <p>
             When I encounter a problem, I first look at Google or Stack
@@ -80,10 +82,10 @@ const AboutMe = () => {
             trying multiple methods, I try to understand it myself by watching
             YouTube or chatGPT.
           </p>
-        </div>
+        </Reveal>
 
         {/* nine  */}
-        <div className="bg2 md:col-span-8 grid-box ">
+        <Reveal className="bg2 md:col-span-8 grid-box ">
           <h3 className="grid-box-title">What's good without programming?</h3>
           <p>
             Apart from coding, I like to play football, sometimes when I go to
@@ -92,7 +94,7 @@ const AboutMe = () => {
             computer screen to gain knowledge, especially programming related
             knowledge.
           </p>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

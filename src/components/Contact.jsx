@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot, FaX } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
+import Reveal from "../Animation/Reveal";
 import Container from "./Container";
 
 const Contact = () => {
@@ -45,7 +46,7 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-4">
           {/* Contact Information */}
-          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
+          <Reveal className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
             <h3 className="text-xl text-white font-semibold mb-4">
               Contact Information
             </h3>
@@ -91,10 +92,10 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </Reveal>
 
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
+          <Reveal className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] p-3 md:p-6 rounded-lg bg-base-100 shadow-md">
             <form ref={form} className="space-y-4" onSubmit={sendEmail}>
               <input
                 type="text"
@@ -142,7 +143,7 @@ const Contact = () => {
                 )}
               </button>
             </form>
-          </div>
+          </Reveal>
         </div>
       </section>
     </Container>

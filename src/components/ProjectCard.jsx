@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { TbListDetails } from "react-icons/tb";
+import Reveal from "../Animation/Reveal";
 import Carousel from "./Carousel";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
@@ -15,7 +16,7 @@ const ProjectCard = ({ project }) => {
   } = project;
 
   return (
-    <div className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] rounded-lg flex flex-col lg:flex-row shadow-lg p-4 space-y-4 md:space-y-0 md:space-x-6">
+    <Reveal className="bg-gradient-to-br from-[#1e1b38] to-[#291e40] border border-[#5e4ca7] rounded-lg flex flex-col lg:flex-row shadow-lg p-4 space-y-4 md:space-y-0 md:space-x-6">
       {/* Image */}
       <div className="flex-1 overflow-hidden  w-full z-0">
         <Carousel images={projectImages} />
@@ -85,7 +86,7 @@ const ProjectCard = ({ project }) => {
           />
         )}
       </div>
-    </div>
+    </Reveal>
   );
 };
 
