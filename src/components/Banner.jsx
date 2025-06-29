@@ -25,7 +25,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="h-[700px]   relative flex flex-col items-center justify-center scroll-mt-20"
+      className="h-[700px] px-3 xl:px-0  relative flex flex-col items-center justify-center scroll-mt-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "bottom",
@@ -33,7 +33,7 @@ const Banner = () => {
       }}
     >
       <div>
-        <div className="flex gap-2 ">
+        <div className="flex flex-col md:flex-row gap-2 ">
           {/* image  */}
           <div className="avatar">
             <div className="bg-radial from-primary from-40% to-secondary w-32 rounded-full ">
@@ -41,9 +41,10 @@ const Banner = () => {
             </div>
           </div>
           {/* title  */}
-          <h2 className="text-white font-bold text-6xl  leading-16">
+          <h2 className="text-white font-bold text-4xl md:text-6xl  md:leading-16">
             HEY, I'M <span className="title">FAJLA</span> 🪄 <br /> A{" "}
-            <span className="title text-5xl">
+            <span className="title text-3xl md:text-5xl">
+              {/* API Integration Specialist */}
               <Typewriter loop={true} words={words} />
             </span>
           </h2>
@@ -79,10 +80,10 @@ const Banner = () => {
           </a>
         </div>
         {/* gradient box  */}
-        <div className="absolute z-0 flex top-0 ">
-          <div className="w-96 h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
+        <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
+          <div className="w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
 
-          <div className=" w-96 h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
+          <div className=" w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
         </div>
       </div>
     </section>

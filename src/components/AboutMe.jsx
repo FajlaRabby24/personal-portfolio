@@ -1,10 +1,13 @@
 const AboutMe = () => {
   return (
-    <section id="about-me" className="max-w-6xl mx-auto scroll-mt-20">
+    <section
+      id="about-me"
+      className="max-w-6xl mx-auto px-3 xl:px-0 scroll-mt-20"
+    >
       <h1 className="section-title">About me</h1>
-      <div className="grid grid-cols-12 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
         {/* one  */}
-        <div className=" col-span-8 grid-box">
+        <div className=" md:col-span-8 grid-box">
           <h3 className="grid-box-title">My Programming Journey</h3>
           <p>
             My programming journey started a long time ago, an interesting thing
@@ -18,7 +21,7 @@ const AboutMe = () => {
         </div>
 
         {/* two  */}
-        <div className="bg col-span-4 grid-box">
+        <div className="bg md:col-span-4 grid-box">
           <h3 className="grid-box-title">How I learned programming</h3>
           <p>
             At first, I learned by watching various playlists on YouTube, but at
@@ -28,7 +31,7 @@ const AboutMe = () => {
         </div>
 
         {/* four  */}
-        <div className="bg2 col-span-4  grid-box">
+        <div className="bg2 md:col-span-4  grid-box">
           <h3 className="grid-box-title">
             All the projects I have done so far
           </h3>
@@ -39,7 +42,7 @@ const AboutMe = () => {
           </p>
         </div>
         {/* three  */}
-        <div className="bg2 col-span-8 grid-box">
+        <div className="bg2 md:col-span-8 grid-box">
           <h3 className="grid-box-title">The kind of work I like</h3>
           <p>
             I love working on projects where UI/UX is important. I like to
@@ -50,7 +53,7 @@ const AboutMe = () => {
           </p>
         </div>
         {/* five  */}
-        <div className="bg2 col-span-4 row-span-2 grid-box">
+        <div className="bg2 md:col-span-4 row-span-2 grid-box">
           <h3 className="grid-box-title">Future goals</h3>
           <p>
             Although programming is difficult, I enjoy learning it, so I have
@@ -60,7 +63,7 @@ const AboutMe = () => {
         </div>
 
         {/* six  */}
-        <div className="bg2 col-span-4 -6 grid-box">
+        <div className="bg2 md:col-span-4 -6 grid-box">
           <h3 className="grid-box-title">My skills and tools</h3>
           <p>
             I work with the MERN Stack (MongoDB, Express, React, Node.js). I am
@@ -69,7 +72,7 @@ const AboutMe = () => {
           </p>
         </div>
         {/* seven  */}
-        <div className="bg2 col-span-4 -5 grid-box">
+        <div className="bg2 md:col-span-4 -5 grid-box">
           <h3 className="grid-box-title">solve the problem?</h3>
           <p>
             When I encounter a problem, I first look at Google or Stack
@@ -80,7 +83,7 @@ const AboutMe = () => {
         </div>
 
         {/* nine  */}
-        <div className="bg2 col-span-8 grid-box ">
+        <div className="bg2 md:col-span-8 grid-box ">
           <h3 className="grid-box-title">What's good without programming?</h3>
           <p>
             Apart from coding, I like to play football, sometimes when I go to

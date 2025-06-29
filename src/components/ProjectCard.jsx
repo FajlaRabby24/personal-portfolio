@@ -62,7 +62,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <a href=""></a>
         {/* Buttons */}
-        <div className="flex gap-3 pt-2">
+        <div className="flex flex-wrap gap-3 pt-2">
           {projectLinks.map((link, idx) => (
             <a href={link.url} target="_blank" key={idx}>
               <button className="btn s">
