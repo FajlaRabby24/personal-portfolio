@@ -2,7 +2,8 @@
 
 This is my personal portfolio website built using **React.js**, **Tailwind CSS**, and **Vite**. The portfolio showcases my skills, projects, and experiences as a **MERN stack developer** with a focus on frontend development using React.
 
-![Portfolio Banner](./Fajla-Rabby.png)
+<img src="https://i.ibb.co/8g71N0Wb/Screenshot-2025-06-29-203148.png" align="center" style="width: 100%" />
+<img src="https://i.ibb.co/Mx3rMYnK/Screenshot-2025-06-29-203202.png" align="center" style="width: 100%" />
 
 ---
 
