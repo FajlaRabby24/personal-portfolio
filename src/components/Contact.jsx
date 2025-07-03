@@ -79,7 +79,7 @@ const Contact = () => {
                 <a
                   className=" p-2 rounded-full bg-neutral"
                   target="_blank"
-                  href="https://www.linkedin.com/in/fajla-rabby-99297b361"
+                  href="https://www.linkedin.com/in/fajla"
                 >
                   <FaLinkedin size={20} color="white" />
                 </a>
