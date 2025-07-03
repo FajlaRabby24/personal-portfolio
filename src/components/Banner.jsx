@@ -62,10 +62,7 @@ const Banner = () => {
           <a target="_blank" href="https://github.com/FajlaRabby24">
             <FaGithub size={30} color="white" />
           </a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/fajla-rabby-99297b361"
-          >
+          <a target="_blank" href="https://www.linkedin.com/in/fajla">
             <FaLinkedin size={30} color="white" />
           </a>
           <a target="_blank" href="https://x.com/FajlaRabby24">
