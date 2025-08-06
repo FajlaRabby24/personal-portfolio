@@ -182,48 +182,7 @@ const projects = [
       },
     ],
   },
-  //   job track
-  {
-    images: [jobtrack1, jobtrack2, jobtrack3, jobtrack4],
-    title: "JobTrack",
-    description:
-      "JobTrack is a modern, user-friendly platform designed to help job seekers explore job listings from multiple companies, filter opportunities, view job details, and apply directly. It includes private routes, authentication, dynamic modals, and a company-wise job management system with a sleek, responsive UI.",
-    fetures: [
-      "Dynamic Company-wise Job Listings from JSON",
-      "Private Route for Company Details and My Profile",
-      "Job Details Modal with 'Apply' button (opens external site)",
-      "Login/Register with Firebase, Google Auth, and Password Validation",
-      "Forget Password Flow that redirects to Gmail",
-      "Responsive Layout for Mobile, Tablet, and Desktop",
-      "Animated Sections using Framer Motion",
-      "Dynamic Title for Each Page using React Helmet",
-      "Custom 404 Page with themed illustration and redirect",
-    ],
-    technology: [
-      "React.js",
-      "React Router",
-      "Tailwind CSS",
-      "DaisyUI",
-      "Firebase Authentication",
-      "Framer Motion",
-      "React Helmet",
-      "Axios",
-      "React Hook Form",
-      "React Toastify",
-    ],
-    links: [
-      {
-        icon: <CiGlobe size={20} />,
-        name: "Live Site",
-        url: "https://job-track-84023.web.app",
-      },
-      {
-        icon: <FaGithub size={20} />,
-        name: "Client GitHub",
-        url: "https://github.com/FajlaRabby24/job-track",
-      },
-    ],
-  },
+
 ];
 
 const Projects = () => {
