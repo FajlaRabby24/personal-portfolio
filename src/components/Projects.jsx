@@ -1,5 +1,11 @@
 import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import medimurt from "../assets/images/medimurt-hub.png";
+import medimurt1 from "../assets/images/medimurt-hub1.png";
+import medimurt2 from "../assets/images/medimurt-hub2.png";
+import medimurt3 from "../assets/images/medimurt-hub3.png";
+import medimurt4 from "../assets/images/medimurt-hub4.png";
+import medimurt5 from "../assets/images/medimurt-hub5.png";
 import carrental1 from "../assets/images/carrental1.png";
 import carrental2 from "../assets/images/carrental2.png";
 import carrental3 from "../assets/images/carrental3.png";
@@ -17,6 +23,67 @@ import Container from "./Container";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
+  // medimurt hub
+  {
+    images: [medimurt, medimurt1,medimurt2,medimurt3,medimurt4,medimurt5],
+    title: "MediMurt Hub",
+    description: 'Medimurt Hub is a centralized platform or dashboard designed for medicine sellers or distributors to manage their products, advertisements, and business operations efficiently.',
+    fetures: [
+      "Responsive design for mobile, tablet, and desktop (including dashboard)",
+      "Firebase authentication with Google, GitHub & email/password login",
+      "Role-based dashboard for Admin, Seller, and User",
+      "Dynamic slider based on Admin advertisements",
+      "Category-based medicine filtering and navigation",
+      "Add-to-cart with quantity control and checkout flow",
+      "Stripe-based secure payment and PDF invoice generation",
+      "Realtime Toast and SweetAlert notifications for all actions",
+      "React Hook Form and TanStack Query integration throughout",
+      "Environment variables used for Firebase config & API keys",
+      "Private Routes with token validation for protected pages",
+      "404 Error Page and Secure Deployment",
+    ],
+    technology: [
+      "React Data Table",
+      "TanStack Query",
+      "Stripe Payment",
+      "React Print",
+      "Lottie Animations",
+      "React Hook Form",
+      "SwiperJS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React Router v7",
+      "Firebase Authentication",
+      "Axios",
+      "DaisyUI",
+      "Tailwind CSS",
+      "React 19",
+      "SweetAlert2",
+      "React Toastify",
+      "dotenv",
+    ],
+    links: [
+      {
+        icon: <CiGlobe size={20} />,
+        name: "Live Site",
+        url: "https://multi-vendor-medicine-e266c.web.app",
+      },
+      {
+        icon: <FaGithub size={20} />,
+        name: "Client",
+        url: "https://github.com/FajlaRabby24/medimurt-hub-client",
+      },
+      {
+        icon: <FaGithub size={20} />,
+        name: "Server",
+        url: "https://github.com/FajlaRabby24/medimurt-hub-server",
+      },
+    ],
+
+
+
+  },
   // car rental
   {
     images: [carrental1, carrental2, carrental3, carrental4, carrental5],
