@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="h-[700px] px-3 xl:px-0  relative flex flex-col items-center  justify-center scroll-mt-20"
+      className="min-h-[90vh] md:min-h-[70vh] md:max-h-[80vh]  px-3 xl:px-0   relative flex flex-col items-center  justify-center scroll-mt-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "bottom",
