@@ -68,7 +68,7 @@ const projects = [
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Client",
+        name: "GitHub",
         url: "https://github.com/FajlaRabby24/medimurt-hub-client",
       },
     ],
@@ -111,7 +111,7 @@ const projects = [
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Client",
+        name: "GitHub",
         url: "https://github.com/FajlaRabby24/car-rental-client",
       },
     ],
@@ -141,7 +141,6 @@ const projects = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "JWT (optional for secure API access)",
       "Axios",
       "React Awesome Reveal",
       "React Tooltip",
@@ -156,7 +155,7 @@ const projects = [
       },
       {
         icon: <FaGithub size={20} />,
-        name: "Client",
+        name: "GitHub",
         url: "https://github.com/FajlaRabby24/recipe-book-client",
       },
     ],
