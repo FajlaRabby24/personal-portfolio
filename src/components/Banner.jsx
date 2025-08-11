@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-[90vh] md:min-h-[70vh] md:max-h-[80vh]  px-3 xl:px-0   relative flex flex-col items-center  justify-center scroll-mt-20"
+      className="min-h-[90vh] md:min-h-[70vh] md:max-h-[80vh]  px-3   relative flex flex-col items-center  justify-center scroll-mt-20"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "bottom",
@@ -48,7 +48,7 @@ const Banner = () => {
           experiences I thrive at the intersection of creativity and
           functionality.
         </p>
-        <div className="flex z-50 flex-wrap items-center gap-7 pt-1">
+        <div className="flex  z-50 relative flex-wrap items-center gap-7 pt-1">
           <button className="btn bg-white">
             <GoDownload size={20} /> Resume
           </button>
@@ -72,7 +72,6 @@ const Banner = () => {
         {/* gradient box  */}
         <div className="absolute z-0 flex flex-col md:flex-row top-0 ">
           <div className="w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#eb4d1d4f]  blur-3xl"></div>
-
           <div className=" w-48 md:w-96 h-48 md:h-96    bg-radial   from-[#19b7f543]  blur-3xl"></div>
         </div>
       </div>

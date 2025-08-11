@@ -40,7 +40,7 @@ const Contact = () => {
     <Container>
       <section
         id="contact"
-        className=" px-3 xl:px-0 pb-24 scroll-mt-20 overflow-hidden w-full"
+        className=" pb-24 scroll-mt-20 overflow-hidden w-full"
       >
         <h2 className="section-title">Contact</h2>
 

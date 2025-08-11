@@ -58,7 +58,7 @@ const skillCategories = {
 const Skills = () => {
   return (
     <Container>
-      <section id="skills" className="px-3 xl:px-0 scroll-mt-24">
+      <section id="skills" className=" scroll-mt-24">
         <h1 className="section-title text-center mb-10">Skills</h1>
 
         {Object.entries(skillCategories).map(([category, skills]) => (
