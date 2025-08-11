@@ -71,11 +71,6 @@ const projects = [
         name: "Client",
         url: "https://github.com/FajlaRabby24/medimurt-hub-client",
       },
-      {
-        icon: <FaGithub size={20} />,
-        name: "Server",
-        url: "https://github.com/FajlaRabby24/medimurt-hub-server",
-      },
     ],
   },
   // car rental
@@ -118,11 +113,6 @@ const projects = [
         icon: <FaGithub size={20} />,
         name: "Client",
         url: "https://github.com/FajlaRabby24/car-rental-client",
-      },
-      {
-        icon: <FaGithub size={20} />,
-        name: "Server",
-        url: "https://github.com/FajlaRabby24/car-rental-server",
       },
     ],
   },
@@ -168,11 +158,6 @@ const projects = [
         icon: <FaGithub size={20} />,
         name: "Client",
         url: "https://github.com/FajlaRabby24/recipe-book-client",
-      },
-      {
-        icon: <FaGithub size={20} />,
-        name: "Server",
-        url: "https://github.com/FajlaRabby24/recipe-book-server",
       },
     ],
   },
