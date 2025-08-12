@@ -66,7 +66,10 @@ const ProjectDetailsModal = ({ isModalOpen, setIsModalOpen, project }) => {
               </a>
             ))}
           </div>
-          <button onClick={closeModal} className="btn btn-warning rounded-md">
+          <button
+            onClick={closeModal}
+            className="btn btn-outline btn-neutral rounded-md"
+          >
             Close
           </button>
         </div>

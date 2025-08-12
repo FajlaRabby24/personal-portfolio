@@ -48,7 +48,7 @@ const Banner = () => {
           experiences I thrive at the intersection of creativity and
           functionality.
         </p>
-        <div className="flex  z-50 relative flex-wrap items-center gap-7 pt-1">
+        <div className="flex  z-30 relative flex-wrap items-center gap-7 pt-1">
           <button className="btn bg-white">
             <GoDownload size={20} /> Resume
           </button>
