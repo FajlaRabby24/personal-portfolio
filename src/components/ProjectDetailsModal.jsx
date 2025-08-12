@@ -60,16 +60,13 @@ const ProjectDetailsModal = ({ isModalOpen, setIsModalOpen, project }) => {
           <div className="flex gap-3 pt-2">
             {projectLinks.map((link, idx) => (
               <a href={link.url} target="_blank" key={idx}>
-                <button className="btn btn-neutral">
+                <button className="btn btn-neutral ">
                   {link.icon} {link.name}
                 </button>
               </a>
             ))}
           </div>
-          <button
-            onClick={closeModal}
-            className="btn btn-outline btn-neutral rounded-md"
-          >
+          <button onClick={closeModal} className="btn btn-outline btn-neutral ">
             Close
           </button>
         </div>

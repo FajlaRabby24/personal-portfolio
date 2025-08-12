@@ -49,12 +49,12 @@ const Banner = () => {
           functionality.
         </p>
         <div className="flex  z-30 relative flex-wrap items-center gap-7 pt-1">
-          <button className="btn bg-white">
+          <button className="button">
             <GoDownload size={20} /> Resume
           </button>
           <a href="#projects">
             {" "}
-            <button className="btn bg-white">
+            <button className="button">
               <MdOutlineVibration size={20} /> View Projects
             </button>
           </a>

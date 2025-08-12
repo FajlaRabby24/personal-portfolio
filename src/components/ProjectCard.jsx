@@ -66,15 +66,12 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-wrap gap-3 pt-2">
           {projectLinks.map((link, idx) => (
             <a href={link.url} target="_blank" key={idx}>
-              <button className="btn s">
+              <button className="button">
                 {link.icon} {link.name}
               </button>
             </a>
           ))}
-          <button
-            onClick={() => setIsModalOpen(true)}
-            className="btn  rounded-md"
-          >
+          <button onClick={() => setIsModalOpen(true)} className="button">
             <TbListDetails size={20} /> Details
           </button>
         </div>

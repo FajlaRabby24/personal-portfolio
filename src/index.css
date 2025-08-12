@@ -40,3 +40,7 @@ body {
 .grid-box-title {
   @apply text-xl font-semibold mb-2;
 }
+
+.button {
+  @apply btn hover:border border-[#a2a2a2a0] hover:btn-neutral;
+}
