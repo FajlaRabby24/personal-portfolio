@@ -69,7 +69,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 gap-3">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a href="/resume.pdf">
+          <a href="/resume.pdf" target="_blank">
             <button className="button flex items-center gap-2">Resume</button>
           </a>
         </div>

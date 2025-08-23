@@ -54,7 +54,7 @@ const Banner = () => {
         {/* Buttons + Socials */}
         <div className="flex z-30 relative flex-wrap items-center gap-7 pt-1">
           {/* ✅ Resume Button (opens modal) */}
-          <a href="/resume.pdf">
+          <a href="/resume.pdf" target="_blank">
             <button className="button flex items-center gap-2">
               <FiDownload size={20} /> Resume
             </button>
