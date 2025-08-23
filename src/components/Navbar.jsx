@@ -61,7 +61,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className=" text-xl">
+          <a href="#home" className=" text-xl">
             <h3 className="font-bold text-4xl  md:text-5xl text-white ">FR</h3>
           </a>
         </div>
@@ -69,7 +69,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 gap-3">{links}</ul>
         </div>
         <div className="navbar-end">
-          <button className="button">Resume</button>
+          <a href="/resume.pdf">
+            <button className="button flex items-center gap-2">Resume</button>
+          </a>
         </div>
       </div>
     </nav>
