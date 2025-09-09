@@ -35,9 +35,9 @@ const AboutMe = () => {
             All the projects I have done so far
           </h3>
           <p>
-            I have done more than 3 projects till now — Car Rental App, Recipe
-            Book App and authentication system. In each project I have handled
-            the frontend and backend myself.
+            I have done more than 3 projects till now — MediMurt Hub, Car Rental
+            App, Recipe Book App and authentication system. In each project I
+            have handled the frontend and backend myself.
           </p>
         </Reveal>
         {/* three  */}
@@ -56,8 +56,9 @@ const AboutMe = () => {
           <h3 className="grid-box-title">Future goals</h3>
           <p>
             Although programming is difficult, I enjoy learning it, so I have
-            made plans to learn Next.js, TypeScript, Python, and C++ in the
-            future. My goal is to create a SaaS app as a full-stack developer.
+            made plans to learn Next.js, TypeScript, Socket.io, Python, and C++
+            in the future. My goal is to create a SaaS app as a full-stack
+            developer.
           </p>
         </Reveal>
 
@@ -72,22 +73,22 @@ const AboutMe = () => {
         </Reveal>
         {/* seven  */}
         <Reveal className="bg2 md:col-span-4 -5 grid-box">
-          <h3 className="grid-box-title">solve the problem?</h3>
+          <h3 className="grid-box-title">Solve the problem</h3>
           <p>
-            When I encounter a problem, I first look at Google or Stack
-            Overflow. Then I look at the documentation. If it doesn't work after
-            trying multiple methods, I try to understand it myself by watching
-            YouTube or chatGPT.
+            When I encounter a problem, I first look at Problem after watching,
+            I try to understand what the problem is and how to solve it. If I
+            can't solve it then I look at the ChatGPT and other AI tools and
+            also Google, Stack overflow, youtube.
           </p>
         </Reveal>
 
         {/* nine  */}
         <Reveal className="bg2 md:col-span-8 grid-box ">
-          <h3 className="grid-box-title">What's good without programming?</h3>
+          <h3 className="grid-box-title">What's good without programming</h3>
           <p>
             Apart from coding, I like to play football, sometimes when I go to
             my village, I play football, and I also use other activities.
-            Besides, when I am in the city, most of the time I spend on my
+            Besides, when I'm in the city, most of the time I spend on my
             computer screen to gain knowledge, especially programming related
             knowledge.
           </p>
