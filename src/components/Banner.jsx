@@ -3,7 +3,7 @@ import { FaX } from "react-icons/fa6";
 import { MdOutlineVibration } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
 import bg from "../assets/images/bg1.png";
-import image from "../assets/images/image.png";
+import image from "../assets/images/profile.png";
 
 import { FiDownload } from "react-icons/fi";
 
