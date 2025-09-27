@@ -1,5 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import AboutMe from "./components/AboutMe";
+import Achievements from "./components/Achievements";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -19,6 +20,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Achievements />
         <Contact />
       </main>
       <footer>
