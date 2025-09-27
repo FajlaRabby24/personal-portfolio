@@ -43,6 +43,14 @@ const Navbar = () => {
           Contact
         </a>
       </li>
+      <li>
+        <a
+          className="text-black md:text-white font-bold md:font-semibold "
+          href="#achievements"
+        >
+          Achievements
+        </a>
+      </li>
     </>
   );
 
