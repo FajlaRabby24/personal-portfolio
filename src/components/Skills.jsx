@@ -10,6 +10,7 @@ import html from "../assets/images/html.png";
 import js from "../assets/images/js.png";
 import jwt from "../assets/images/jwt.png";
 import mongodb from "../assets/images/mongodb.png";
+import mongoose from "../assets/images/mongoose.png";
 import mui from "../assets/images/mui.png";
 import nodejs from "../assets/images/nodejs.png";
 import postman from "../assets/images/postman.png";
@@ -41,6 +42,7 @@ const skillCategories = {
   Backend: [
     { image: nodejs, name: "Node.js" },
     { image: express, name: "Express.js" },
+    { image: mongoose, name: "Mongoose" },
     { image: mongodb, name: "MongoDB" },
     { image: jwt, name: "JWT" },
     { image: firebase, name: "Firebase" },
